@@ -2,7 +2,7 @@
 title: 欢迎来到寒石维基Tiango-Wiki
 description: 本项目只服务开源项目、个人博客！
 published: true
-date: 2025-09-03T12:29:11.673Z
+date: 2025-09-03T13:34:36.248Z
 tags: about, wiki, tiango, blogsclub, github, typecho
 editor: markdown
 dateCreated: 2025-09-02T21:54:03.725Z
@@ -27,6 +27,9 @@ dateCreated: 2025-09-02T21:54:03.725Z
 2. 部署笔记：例如Wikijs搭建教程。
 3. 每周报刊：例如AI等前沿周刊。
 
+## 本站搭建教程
+
+[如何Docker部署属于自己的Wiki-寒士杰克](https://www.hansjack.com/archives/docker-deploy-wikijs.html)
 
 ## 友情链接
 
