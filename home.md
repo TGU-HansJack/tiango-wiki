@@ -2,7 +2,7 @@
 title: 欢迎来到寒石维基Tiango-Wiki
 description: 本项目只服务开源项目、个人博客！
 published: true
-date: 2025-09-03T04:36:56.566Z
+date: 2025-09-03T12:29:11.673Z
 tags: about, wiki, tiango, blogsclub, github, typecho
 editor: markdown
 dateCreated: 2025-09-02T21:54:03.725Z
@@ -15,7 +15,7 @@ dateCreated: 2025-09-02T21:54:03.725Z
 
 ## 寒士杰克介绍
 
-![snipaste_2025-09-03_07-02-28.webp](/寒士杰克/snipaste_2025-09-03_07-02-28.webp)
+![wwwhansjackcom.webp](/寒士杰克/wwwhansjackcom.webp)
 
 [寒士杰克](https://www.hansjack.com/)：个人博客，[Typecho](https://typecho.org/) 及 [BearSimple](https://github.com/whitebearcode/typecho-bearsimple) 提供技术支持。 
 
