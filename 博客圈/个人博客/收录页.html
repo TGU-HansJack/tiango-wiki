@@ -2,7 +2,7 @@
 title: 此页收录个人博客
 description: 仅个人博客/非盈利
 published: true
-date: 2025-09-04T07:06:55.033Z
+date: 2025-09-04T07:10:43.715Z
 tags: blog
 editor: code
 dateCreated: 2025-09-03T08:21:10.841Z
@@ -12,22 +12,60 @@ dateCreated: 2025-09-03T08:21:10.841Z
 <p>评论区回复链接即可进行收录</p>
 <h2 id="收录中" class="toc-header"> 收录中</h2>
 
-
 <!-- 博客收录容器 -->
-<div class="blog-collection" id="blogCollection" data-bc-config='{"maxTitleLength":80}'>
-  <!-- 单个博客项模板（复制一份用于每个博客）-->
-  <article class="blog-item" data-rss="https://www.hansjack.com/feed/">
-    <h2 class="blog-title"><a class="blog-link" href="#" target="_blank" rel="noopener">寒士杰克</a></h2>
+<div class="blog-collection" id="blogCollection" 
+     data-bc-config='{"maxTitleLength":80,"rssProxy":"https://api.allorigins.win/raw?url="}'>
+
+  <!-- 示例：阮一峰的网络日志 -->
+  <article class="blog-item" data-rss="https://feeds.feedburner.com/ruanyifeng">
+    <h2 class="blog-title">
+      <a class="blog-link" href="#" target="_blank" rel="noopener">阮一峰的网络日志</a>
+    </h2>
     <div class="blog-meta">
-      <span class="blog-author">作者：<span class="author-name">作者名</span></span>
-      <span class="blog-url">站点：<a class="site-link" href="#" target="_blank" rel="noopener">https://www.hansjack.com</a></span>
+      <span class="blog-author">作者：<span class="author-name">阮一峰</span></span>
+      <span class="blog-url">站点：<a class="site-link" href="https://www.ruanyifeng.com" target="_blank" rel="noopener">https://www.ruanyifeng.com</a></span>
     </div>
     <div class="blog-latest">
       <strong>最新文章：</strong>
       <div class="latest">
-        <!-- JS 会把最新文章标题和链接插入这里；若无法获取则显示提示 -->
-        <span class="latest-loading">（正在加载或请检查 RSS）</span>
+        <span class="latest-loading">（正在加载…）</span>
       </div>
     </div>
   </article>
+
+  <!-- 示例：廖雪峰的官方网站 -->
+  <article class="blog-item" data-rss="https://www.liaoxuefeng.com/feed">
+    <h2 class="blog-title">
+      <a class="blog-link" href="#" target="_blank" rel="noopener">廖雪峰的官方网站</a>
+    </h2>
+    <div class="blog-meta">
+      <span class="blog-author">作者：<span class="author-name">廖雪峰</span></span>
+      <span class="blog-url">站点：<a class="site-link" href="https://www.liaoxuefeng.com" target="_blank" rel="noopener">https://www.liaoxuefeng.com</a></span>
+    </div>
+    <div class="blog-latest">
+      <strong>最新文章：</strong>
+      <div class="latest">
+        <span class="latest-loading">（正在加载…）</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- 示例：掘金（RSSHub 提供） -->
+  <article class="blog-item" data-rss="https://rsshub.app/juejin/category/frontend">
+    <h2 class="blog-title">
+      <a class="blog-link" href="#" target="_blank" rel="noopener">掘金前端</a>
+    </h2>
+    <div class="blog-meta">
+      <span class="blog-author">作者：<span class="author-name">掘金</span></span>
+      <span class="blog-url">站点：<a class="site-link" href="https://juejin.cn" target="_blank" rel="noopener">https://juejin.cn</a></span>
+    </div>
+    <div class="blog-latest">
+      <strong>最新文章：</strong>
+      <div class="latest">
+        <span class="latest-loading">（正在加载…）</span>
+      </div>
+    </div>
+  </article>
+
 </div>
+
