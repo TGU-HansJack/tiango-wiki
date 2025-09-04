@@ -2,7 +2,7 @@
 title: 欢迎来到寒石维基 Tiango-Wiki
 description: 本项目只服务开源项目、个人博客！
 published: true
-date: 2025-09-04T10:02:10.219Z
+date: 2025-09-04T15:06:21.944Z
 tags: about, wiki, tiango, blogsclub, github, typecho
 editor: markdown
 dateCreated: 2025-09-02T21:54:03.725Z
